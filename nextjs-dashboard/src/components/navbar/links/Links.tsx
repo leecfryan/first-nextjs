@@ -58,7 +58,7 @@ const Links = () => {
               </Link>
             )}
             <Link href="/logout" legacyBehavior passHref>
-              <NavigationMenuLink className="inline-flex mx-1 h-9 w-max border-solid border-b-2 border-b-[#499eee] px-4 py-2 text-sm font-medium transition-colors dark:bg-[#1166b6] dark:hover:bg-[#499eee] hover:bg-[#1166b6] hover:rounded-md hover:border-0 dark:border-0 dark:rounded-md">
+              <NavigationMenuLink className="inline-flex mx-1 h-9 w-max border-solid border-b-2 border-b-[#499eee] px-4 py-2 text-sm font-medium transition-colors dark:border-b-[#1166b6] dark:border-solid dark:border-b-2 dark:hover:bg-[#499eee] hover:bg-[#1166b6] hover:rounded-md hover:border-0 ">
                 Logout
               </NavigationMenuLink>
             </Link>

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="py-2">
       <NavigationMenu className="flex flex-row justify-between min-w-full">
-        <div className="hover:scale-110 transition">
+        <div className="hover:scale-110 transition px-[50px]">
           <Link href="/">Ryan's Website</Link>
         </div>
         <div className="flex">
